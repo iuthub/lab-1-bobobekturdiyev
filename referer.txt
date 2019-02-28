@@ -1,0 +1,38 @@
+22:52:31.312000 == Info:   Trying 52.71.234.219...
+22:52:31.312000 == Info: TCP_NODELAY set
+22:52:31.312000 == Info: Connected to httpbin.org (52.71.234.219) port 80 (#0)
+22:52:31.312000 => Send header, 110 bytes (0x6e)
+0000: GET /get HTTP/1.1
+0013: Host: httpbin.org
+0026: User-Agent: curl/7.60.0
+003f: Accept: */*
+004c: Referer: http://www.google.com
+006c: 
+22:52:31.968000 <= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+22:52:31.968000 <= Recv header, 40 bytes (0x28)
+0000: Access-Control-Allow-Credentials: true
+22:52:31.968000 <= Recv header, 32 bytes (0x20)
+0000: Access-Control-Allow-Origin: *
+22:52:31.968000 <= Recv header, 32 bytes (0x20)
+0000: Content-Type: application/json
+22:52:31.968000 <= Recv header, 37 bytes (0x25)
+0000: Date: Sun, 24 Feb 2019 17:52:31 GMT
+22:52:31.968000 <= Recv header, 15 bytes (0xf)
+0000: Server: nginx
+22:52:31.968000 <= Recv header, 21 bytes (0x15)
+0000: Content-Length: 339
+22:52:31.968000 <= Recv header, 24 bytes (0x18)
+0000: Connection: Keep-Alive
+22:52:31.968000 <= Recv header, 8 bytes (0x8)
+0000: Age: 0
+22:52:31.968000 <= Recv header, 2 bytes (0x2)
+0000: 
+22:52:31.968000 <= Recv data, 339 bytes (0x153)
+0000: {.  "args": {}, .  "headers": {.    "Accept": "*/*", .    "Cache
+0040: -Control": "max-stale=0", .    "Host": "httpbin.org", .    "If-M
+0080: odified-Since": "Sun, 24 Feb 2019 17:43:25 GMT", .    "Referer":
+00c0:  "http://www.google.com", .    "User-Agent": "curl/7.60.0".  }, 
+0100: .  "origin": "{hidden}", .  "url": "https://
+0140: httpbin.org/get".}.
+22:52:31.968000 == Info: Connection #0 to host httpbin.org left intact

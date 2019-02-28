@@ -1,0 +1,35 @@
+22:22:39.781000 == Info:   Trying 52.71.234.219...
+22:22:39.796000 == Info: TCP_NODELAY set
+22:22:39.796000 == Info: Connected to httpbin.org (52.71.234.219) port 80 (#0)
+22:22:39.796000 => Send header, 78 bytes (0x4e)
+0000: GET /get HTTP/1.1
+0013: Host: httpbin.org
+0026: User-Agent: Mozilla/5.0
+003f: Accept: */*
+004c: 
+22:22:40.515000 <= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+22:22:40.515000 <= Recv header, 40 bytes (0x28)
+0000: Access-Control-Allow-Credentials: true
+22:22:40.515000 <= Recv header, 32 bytes (0x20)
+0000: Access-Control-Allow-Origin: *
+22:22:40.515000 <= Recv header, 32 bytes (0x20)
+0000: Content-Type: application/json
+22:22:40.531000 <= Recv header, 37 bytes (0x25)
+0000: Date: Sun, 24 Feb 2019 17:22:40 GMT
+22:22:40.531000 <= Recv header, 15 bytes (0xf)
+0000: Server: nginx
+22:22:40.531000 <= Recv header, 21 bytes (0x15)
+0000: Content-Length: 298
+22:22:40.531000 <= Recv header, 24 bytes (0x18)
+0000: Connection: Keep-Alive
+22:22:40.531000 <= Recv header, 8 bytes (0x8)
+0000: Age: 0
+22:22:40.531000 <= Recv header, 2 bytes (0x2)
+0000: 
+22:22:40.531000 <= Recv data, 298 bytes (0x12a)
+0000: {.  "args": {}, .  "headers": {.    "Accept": "*/*", .    "Cache
+0040: -Control": "max-stale=0", .    "Host": "httpbin.org", .    "If-M
+0080: odified-Since": "Sun, 24 Feb 2019 17:13:39 GMT", .    "User-Agen
+00c0: t": "Mozilla/5.0".  }, .  "origin": "{hidden}", .  "url": "https://httpbin.org/get".}.
+22:22:40.531000 == Info: Connection #0 to host httpbin.org left intact

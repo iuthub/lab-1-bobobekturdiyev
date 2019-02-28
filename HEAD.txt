@@ -1,0 +1,279 @@
+23:13:44.328000 == Info:   Trying 104.24.97.167...
+23:13:44.328000 == Info: TCP_NODELAY set
+23:13:44.421000 == Info: Connected to www.booleanworld.com (104.24.97.167) port 443 (#0)
+23:13:44.718000 == Info: ALPN, offering h2
+23:13:44.718000 == Info: ALPN, offering http/1.1
+23:13:44.718000 == Info: Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+23:13:44.734000 == Info: successfully set certificate verify locations:
+23:13:44.734000 == Info:   CAfile: C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+  CApath: none
+23:13:44.734000 == Info: TLSv1.2 (OUT), TLS header, Certificate Status (22):
+23:13:44.734000 => Send SSL data, 5 bytes (0x5)
+0000: .....
+23:13:44.734000 == Info: TLSv1.2 (OUT), TLS handshake, Client hello (1):
+23:13:44.734000 => Send SSL data, 512 bytes (0x200)
+0000: ......2....B...b......g...V6C_F,hd......0.,.(.$.............k.
+0040: j.i.h.9.8.7.6.........2...*.&.......=.5.../.+.'.#.............g.
+0080: @.?.>.3.2.1.0.........E.D.C.B.1.-.).%.......<./...A.............
+00c0: ............3.........www.booleanworld.com......................
+0100: ..................... .....................................3t...
+0140: ......h2.http/1.1...............................................
+0180: ................................................................
+01c0: ................................................................
+23:13:44.843000 <= Recv SSL data, 5 bytes (0x5)
+0000: ....`
+23:13:44.843000 == Info: TLSv1.2 (IN), TLS handshake, Server hello (2):
+23:13:44.843000 <= Recv SSL data, 96 bytes (0x60)
+0000: ...\..\r...K._n2...K1MN.....[.DOWNGRD. %._..H...\..}I+......h.".
+0040: .q....T.+.....................h2
+23:13:44.843000 <= Recv SSL data, 5 bytes (0x5)
+0000: .....
+23:13:44.859000 == Info: TLSv1.2 (IN), TLS handshake, Certificate (11):
+23:13:44.859000 <= Recv SSL data, 4308 bytes (0x10d4)
+0000: .........M0..I0..........^...E..f:....Z.H0...*.H.=...0..1.0...U.
+0040: ...GB1.0...U....Greater Manchester1.0...U....Salford1.0...U....C
+0080: OMODO CA Limited1806..U.../COMODO ECC Domain Validation Secure S
+00c0: erver CA 20...190215000000Z..190824235959Z0l1!0...U....Domain Co
+0100: ntrol Validated1!0...U....PositiveSSL Multi-Domain1$0"..U....sni
+0140: 200397.cloudflaressl.com0Y0...*.H.=....*.H.=....B.. X*}.,u."..U.
+0180: ....s..C...zJ;.......A.$...S..+.L|^.....t....?.M$B....J0..F0...U
+01c0: .#..0...@.ag...qO...,o..+v=.0...U......KTj.....<p.......b;.0...U
+0200: ...........0...U.......0.0...U.%..0...+.........+.......0O..U. .
+0240: H0F0:..+.....1....0+0)..+.........https://secure.comodo.com/CPS0
+0280: ...g.....0V..U...O0M0K.I.G.Ehttp://crl.comodoca4.com/COMODOECCDo
+02c0: mainValidationSecureServerCA2.crl0....+........|0z0Q..+.....0..E
+0300: http://crt.comodoca4.com/COMODOECCDomainValidationSecureServerCA
+0340: 2.crt0%..+.....0...http://ocsp.comodoca4.com0.....U.....0..{..s
+0380: ni200397.cloudflaressl.com..*.a-k.pw..*.allmovement.ru..*.atlant
+03c0: is.business..*.bafftaterre.ga..*.barnecessity.com..*.booleanworl
+0400: d.com..*.bsrimpex.com..*.dittadipulizie.it..*.elbo.in..*.emailfo
+0440: rmula.com..*.fireexclusives.top..*.forteskincream.com..*.freshdu
+0480: mps.net..*.gazettehop.com..*.giftuniverse.ru..*.inscoopveti.ml..
+04c0: *.latestmosts.top..*.mantevinlo.gq..*.pietermaritzburg.business.
+0500: .*.ractvakamil.ga..*.sliparmoires.top..*.snugsofts.top..*.soluti
+0540: onc.net..*.stylefines.top..*.tembisa.business..*.teologov.ru..*.
+0580: termgentles.top..*.transportcontracts.co.za..*.videoboy8.cf..*.v
+05c0: irginiasluxurybags.com..*.zirvekargo.com..a-k.pw..allmovement.ru
+0600: ..atlantis.business..bafftaterre.ga..barnecessity.com..booleanwo
+0640: rld.com..bsrimpex.com..dittadipulizie.it..elbo.in..emailformula.
+0680: com..fireexclusives.top..forteskincream.com..freshdumps.net..gaz
+06c0: ettehop.com..giftuniverse.ru..inscoopveti.ml..latestmosts.top..m
+0700: antevinlo.gq..pietermaritzburg.business..ractvakamil.ga..sliparm
+0740: oires.top..snugsofts.top..solutionc.net..stylefines.top..tembisa
+0780: .business..teologov.ru..termgentles.top..transportcontracts.co.z
+07c0: a..videoboy8.cf..virginiasluxurybags.com..zirvekargo.com0.....+.
+0800: ....y............v.......q...#...{G8W...R....d6.......h.........
+0840: G0E. 4....;.k....H.GcK......"&.... ?.!../7M......E..h...|...|..
+0880: (.&...p>.w.t~..1.3..!..%OBp...^B ..75y..{.V...h...".....H0F.!..f
+08c0: *nU.q...q|.#..wSx.&.\.u..9}....!.........+.\n..6......]...A...d.
+0900: .0...*.H.=....H.0E. .Ip...h...(....<.o....,.#a......!...C.w..E.
+0940: Z..........m*.r(2."W.X...0...0..%.......[%.i..&Uf.9...T.0...*.H
+0980: .=...0..1.0...U....GB1.0...U....Greater Manchester1.0...U....Sal
+09c0: ford1.0...U....COMODO CA Limited1+0)..U..."COMODO ECC Certificat
+0a00: ion Authority0...140925000000Z..290924235959Z0..1.0...U....GB1.0
+0a40: ...U....Greater Manchester1.0...U....Salford1.0...U....COMODO CA
+0a80:  Limited1806..U.../COMODO ECC Domain Validation Secure Server CA
+0ac0:  20Y0...*.H.=....*.H.=....B...8..:.i.pY.....0.....y.:%,kA!....>J
+0b00: .3...*C...d...%P.$..I8.%G.H.....f0..b0...U.#..0...uq..H.....AG..
+0b40: .Hw..y0...U......@.ag...qO...,o..+v=.0...U...........0...U......
+0b80: .0.......0...U.%..0...+.........+.......0...U. ..0.0...U. .0...g
+0bc0: .....0L..U...E0C0A.?.=.;http://crl.comodoca.com/COMODOECCCertifi
+0c00: cationAuthority.crl0r..+........f0d0;..+.....0../http://crt.como
+0c40: doca.com/COMODOECCAddTrustCA.crt0%..+.....0...http://ocsp.comodo
+0c80: ca4.com0...*.H.=....h.0e.1..hG%..O.V..7..ZP....a.(...2..q....o.z
+0cc0:  fk....C.Ro.0..|..f....E..J0a.I.o..-....j|...0%Y..p4.4.....R...
+0d00: 0...0..........CR.?..........DN0...*.H........0o1.0...U....SE1.0
+0d40: ...U....AddTrust AB1&0$..U....AddTrust External TTP Network1"0 .
+0d80: .U....AddTrust External CA Root0...000530104838Z..200530104838Z0
+0dc0: ..1.0...U....GB1.0...U....Greater Manchester1.0...U....Salford1.
+0e00: 0...U....COMODO CA Limited1+0)..U..."COMODO ECC Certification Au
+0e40: thority0v0...*.H.=....+...".b...G{/u.....u.....b..>R...A....$<.
+0e80: ...=......u...w.*..`K6..#...q.J.(P....n?l//.Y[.[.3...=..j,......
+0ec0: ..0..0...U.#..0......z4.&...&T....$.T.0...U......uq..H.....AG...
+0f00: Hw..y0...U...........0...U.......0....0...U. ..0.0...U. .0I..U..
+0f40: .B0@0>.<.:.8http://crl.trust-provider.com/AddTrustExternalCARoot
+0f80: .crl0:..+.........0,0*..+.....0...http://ocsp.trust-provider.com
+0fc0: 0...*.H.................@.\.K..U6.X.S.=d....8..!;..[.H..C.!lA..-
+1000: .s.q..!s~.....X....mv..:. .-}......2...e......x..;R...t.....mh..
+1040: ..$..'H....?p.A.sQ7)...z.'.$Q..h....6.........m. .5vsB........."
+1080: .....Qa..&...uQ..../....?z....hy..........E..|.5.!...fu&*..&.f..
+10c0: ...A.............uj.
+23:13:44.859000 <= Recv SSL data, 5 bytes (0x5)
+0000: .....
+23:13:44.859000 == Info: TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+23:13:44.859000 <= Recv SSL data, 147 bytes (0x93)
+0000: .......A.:]..Es'=............21.:q..f..X0K....K.........g..vBzk.
+0040: &{8L..B....F0D. ..&6............GV..>........K21. ..@&.|..r...
+0080: .......a.....z.z~
+23:13:44.859000 <= Recv SSL data, 5 bytes (0x5)
+0000: .....
+23:13:44.859000 == Info: TLSv1.2 (IN), TLS handshake, Server finished (14):
+23:13:44.859000 <= Recv SSL data, 4 bytes (0x4)
+0000: ....
+23:13:44.859000 => Send SSL data, 5 bytes (0x5)
+0000: ....F
+23:13:44.859000 == Info: TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+23:13:44.859000 => Send SSL data, 70 bytes (0x46)
+0000: ...BA.vP.....v.$.!Q?...7.. ...#8T(...x..`f.*/...Z3.L....M..MF...
+0040: ....Gg
+23:13:44.859000 => Send SSL data, 5 bytes (0x5)
+0000: .....
+23:13:44.859000 == Info: TLSv1.2 (OUT), TLS change cipher, Client hello (1):
+23:13:44.859000 => Send SSL data, 1 bytes (0x1)
+0000: .
+23:13:44.859000 => Send SSL data, 5 bytes (0x5)
+0000: ....(
+23:13:44.859000 == Info: TLSv1.2 (OUT), TLS handshake, Finished (20):
+23:13:44.859000 => Send SSL data, 16 bytes (0x10)
+0000: ....6.:...}k...L
+23:13:44.953000 <= Recv SSL data, 5 bytes (0x5)
+0000: .....
+23:13:44.953000 == Info: TLSv1.2 (IN), TLS change cipher, Client hello (1):
+23:13:44.953000 <= Recv SSL data, 1 bytes (0x1)
+0000: .
+23:13:44.953000 <= Recv SSL data, 5 bytes (0x5)
+0000: ....(
+23:13:44.953000 == Info: TLSv1.2 (IN), TLS handshake, Finished (20):
+23:13:44.953000 <= Recv SSL data, 16 bytes (0x10)
+0000: .....ND:...UC...
+23:13:44.953000 == Info: SSL connection using TLSv1.2 / ECDHE-ECDSA-AES128-GCM-SHA256
+23:13:44.953000 == Info: ALPN, server accepted to use h2
+23:13:44.953000 == Info: Server certificate:
+23:13:44.953000 == Info:  subject: OU=Domain Control Validated; OU=PositiveSSL Multi-Domain; CN=sni200397.cloudflaressl.com
+23:13:44.953000 == Info:  start date: Feb 15 00:00:00 2019 GMT
+23:13:44.953000 == Info:  expire date: Aug 24 23:59:59 2019 GMT
+23:13:44.953000 == Info:  subjectAltName: host "www.booleanworld.com" matched cert's "*.booleanworld.com"
+23:13:44.953000 == Info:  issuer: C=GB; ST=Greater Manchester; L=Salford; O=COMODO CA Limited; CN=COMODO ECC Domain Validation Secure Server CA 2
+23:13:44.953000 == Info:  SSL certificate verify ok.
+23:13:44.953000 == Info: Using HTTP2, server supports multi-use
+23:13:44.953000 == Info: Connection state changed (HTTP/2 confirmed)
+23:13:44.953000 == Info: Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+23:13:44.953000 => Send SSL data, 5 bytes (0x5)
+0000: ....0
+23:13:44.953000 => Send SSL data, 5 bytes (0x5)
+0000: ....3
+23:13:44.953000 => Send SSL data, 5 bytes (0x5)
+0000: ....%
+23:13:44.953000 == Info: Using Stream ID: 1 (easy handle 0x66fd90)
+23:13:44.953000 => Send SSL data, 5 bytes (0x5)
+0000: ....I
+23:13:44.953000 => Send header, 83 bytes (0x53)
+0000: HEAD / HTTP/2
+000f: Host: www.booleanworld.com
+002b: User-Agent: curl/7.60.0
+0044: Accept: */*
+0051: 
+23:13:44.953000 <= Recv SSL data, 5 bytes (0x5)
+0000: ....@
+23:13:44.953000 == Info: Connection state changed (MAX_CONCURRENT_STREAMS == 256)!
+23:13:44.953000 => Send SSL data, 5 bytes (0x5)
+0000: ....!
+23:13:45.031000 <= Recv SSL data, 5 bytes (0x5)
+0000: ....!
+23:13:46.062000 <= Recv SSL data, 5 bytes (0x5)
+0000: ....q
+23:13:46.062000 <= Recv SSL data, 5 bytes (0x5)
+0000: .....
+23:13:46.062000 <= Recv header, 13 bytes (0xd)
+0000: HTTP/2 200 
+23:13:46.062000 <= Recv header, 37 bytes (0x25)
+0000: date: Sun, 24 Feb 2019 18:13:45 GMT
+23:13:46.062000 <= Recv header, 40 bytes (0x28)
+0000: content-type: text/html; charset=UTF-8
+23:13:46.062000 <= Recv header, 155 bytes (0x9b)
+0000: set-cookie: __cfduid=dedad5f929d7792e10e09a9911d9070d11551032024
+0040: ; expires=Mon, 24-Feb-20 18:13:44 GMT; path=/; domain=.booleanwo
+0080: rld.com; HttpOnly; Secure
+23:13:46.062000 <= Recv header, 23 bytes (0x17)
+0000: vary: Accept-Encoding
+23:13:46.062000 <= Recv header, 23 bytes (0x17)
+0000: display: pub_site_sol
+23:13:46.062000 <= Recv header, 40 bytes (0x28)
+0000: expires: Sat, 23 Feb 2019 18:13:45 GMT
+23:13:46.062000 <= Recv header, 73 bytes (0x49)
+0000: link: <https://www.booleanworld.com/wp-json/>; rel="https://api.
+0040: w.org/"
+23:13:46.062000 <= Recv header, 16 bytes (0x10)
+0000: pagespeed: off
+23:13:46.062000 <= Recv header, 15 bytes (0xf)
+0000: response: 200
+23:13:46.062000 <= Recv header, 45 bytes (0x2d)
+0000: vary: Accept-Encoding,User-Agent,X-APP-JSON
+23:13:46.062000 <= Recv header, 104 bytes (0x68)
+0000: x-ezoic-cdn: Hit ds;mm;5095a596f1199f08ba97dd339749c4bf;2-95829-
+0040: 0;e2a2ef9b-2dba-476e-5913-e4e895b4beb6
+23:13:46.062000 <= Recv header, 29 bytes (0x1d)
+0000: x-frame-options: sameorigin
+23:13:46.062000 <= Recv header, 35 bytes (0x23)
+0000: x-middleton-display: pub_site_sol
+23:13:46.062000 <= Recv header, 27 bytes (0x1b)
+0000: x-middleton-response: 200
+23:13:46.062000 <= Recv header, 17 bytes (0x11)
+0000: x-sol: pub_site
+23:13:46.062000 <= Recv header, 33 bytes (0x21)
+0000: x-xss-protection: 1; mode=block
+23:13:46.062000 <= Recv header, 103 bytes (0x67)
+0000: set-cookie: ezoadgid_95829=-1; Path=/; Domain=booleanworld.com; 
+0040: Expires=Sun, 24 Feb 2019 18:43:44 UTC
+23:13:46.062000 <= Recv header, 99 bytes (0x63)
+0000: set-cookie: ezoref_95829=; Path=/; Domain=booleanworld.com; Expi
+0040: res=Sun, 24 Feb 2019 20:13:44 UTC
+23:13:46.062000 <= Recv header, 102 bytes (0x66)
+0000: set-cookie: ezoab_95829=mod1; Path=/; Domain=booleanworld.com; E
+0040: xpires=Sun, 24 Feb 2019 20:13:44 UTC
+23:13:46.062000 <= Recv header, 128 bytes (0x80)
+0000: set-cookie: active_template::95829=pub_site.1551032024; Path=/; 
+0040: Domain=booleanworld.com; Expires=Tue, 26 Feb 2019 18:13:44 UTC
+23:13:46.062000 <= Recv header, 100 bytes (0x64)
+0000: set-cookie: ezopvc_95829=1; Path=/; Domain=booleanworld.com; Exp
+0040: ires=Sun, 24 Feb 2019 18:43:45 UTC
+23:13:46.062000 <= Recv header, 94 bytes (0x5e)
+0000: set-cookie: ezepvv=0; Path=/; Domain=booleanworld.com; Expires=M
+0040: on, 25 Feb 2019 18:13:45 UTC
+23:13:46.062000 <= Recv header, 124 bytes (0x7c)
+0000: set-cookie: lp_95829=https://www.booleanworld.com/; Path=/; Doma
+0040: in=booleanworld.com; Expires=Sun, 24 Feb 2019 20:13:45 UTC
+23:13:46.062000 <= Recv header, 108 bytes (0x6c)
+0000: set-cookie: ezovid_95829=465510398; Path=/; Domain=booleanworld.
+0040: com; Expires=Sun, 24 Feb 2019 18:43:45 UTC
+23:13:46.062000 <= Recv header, 115 bytes (0x73)
+0000: set-cookie: ezovuuidtime_95829=1551032025; Path=/; Domain=boolea
+0040: nworld.com; Expires=Tue, 26 Feb 2019 18:13:45 UTC
+23:13:46.062000 <= Recv header, 137 bytes (0x89)
+0000: set-cookie: ezovuuid_95829=c5e95677-a05e-438a-4331-4902a5454edb;
+0040:  Path=/; Domain=booleanworld.com; Expires=Sun, 24 Feb 2019 18:43
+0080: :45 UTC
+23:13:46.062000 <= Recv header, 99 bytes (0x63)
+0000: set-cookie: ezCMPCCS=true; Path=/; Domain=booleanworld.com; Expi
+0040: res=Mon, 24 Feb 2020 18:13:45 GMT
+23:13:46.062000 <= Recv header, 23 bytes (0x17)
+0000: x-varnish: 1028562567
+23:13:46.062000 <= Recv header, 32 bytes (0x20)
+0000: via: 1.1 varnish (Varnish/6.0)
+23:13:46.062000 <= Recv header, 16 bytes (0x10)
+0000: x-vcache: Miss
+23:13:46.062000 <= Recv header, 20 bytes (0x14)
+0000: x-shard: 100224185
+23:13:46.062000 <= Recv header, 22 bytes (0x16)
+0000: x-varnish: 684661065
+23:13:46.062000 <= Recv header, 8 bytes (0x8)
+0000: age: 0
+23:13:46.062000 <= Recv header, 32 bytes (0x20)
+0000: via: 1.1 varnish (Varnish/6.0)
+23:13:46.062000 <= Recv header, 63 bytes (0x3f)
+0000: cache-control: max-age=0, must-revalidate, no-cache, no-store
+23:13:46.062000 <= Recv header, 73 bytes (0x49)
+0000: strict-transport-security: max-age=15552000; includeSubDomains; 
+0040: preload
+23:13:46.062000 <= Recv header, 33 bytes (0x21)
+0000: x-content-type-options: nosniff
+23:13:46.062000 <= Recv header, 100 bytes (0x64)
+0000: expect-ct: max-age=604800, report-uri="https://report-uri.cloudf
+0040: lare.com/cdn-cgi/beacon/expect-ct"
+23:13:46.062000 <= Recv header, 20 bytes (0x14)
+0000: server: cloudflare
+23:13:46.062000 <= Recv header, 30 bytes (0x1e)
+0000: cf-ray: 4ae3e86a592d86e5-ARN
+23:13:46.062000 <= Recv header, 2 bytes (0x2)
+0000: 
+23:13:46.062000 == Info: Connection #0 to host www.booleanworld.com left intact

@@ -1,0 +1,33 @@
+== Info: Rebuilt URL to: gazeta.uz/
+== Info:   Trying 81.95.225.147...
+== Info: TCP_NODELAY set
+== Info: Connected to gazeta.uz (81.95.225.147) port 80 (#0)
+=> Send header, 77 bytes (0x4d)
+0000: GET / HTTP/1.1
+0010: Host: www.azamat.uz
+0025: Accept: */*
+0032: User-Agent: Mozilla/5.0
+004b: 
+<= Recv header, 24 bytes (0x18)
+0000: HTTP/1.1 403 Forbidden
+<= Recv header, 15 bytes (0xf)
+0000: Server: nginx
+<= Recv header, 37 bytes (0x25)
+0000: Date: Sun, 24 Feb 2019 17:21:18 GMT
+<= Recv header, 25 bytes (0x19)
+0000: Content-Type: text/html
+<= Recv header, 21 bytes (0x15)
+0000: Content-Length: 146
+<= Recv header, 24 bytes (0x18)
+0000: Connection: keep-alive
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 146 bytes (0x92)
+0000: <html>
+0008: <head><title>403 Forbidden</title></head>
+0033: <body>
+003b: <center><h1>403 Forbidden</h1></center>
+0064: <hr><center>nginx</center>
+0080: </body>
+0089: </html>
+== Info: Connection #0 to host gazeta.uz left intact

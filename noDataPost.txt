@@ -1,0 +1,193 @@
+23:12:35.765000 == Info:   Trying 52.71.234.219...
+23:12:35.765000 == Info: TCP_NODELAY set
+23:12:35.953000 == Info: Connected to httpbin.org (52.71.234.219) port 443 (#0)
+23:12:36.265000 == Info: ALPN, offering h2
+23:12:36.265000 == Info: ALPN, offering http/1.1
+23:12:36.265000 == Info: Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+23:12:36.281000 == Info: successfully set certificate verify locations:
+23:12:36.281000 == Info:   CAfile: C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+  CApath: none
+23:12:36.281000 == Info: TLSv1.2 (OUT), TLS header, Certificate Status (22):
+23:12:36.281000 => Send SSL data, 5 bytes (0x5)
+0000: .....
+23:12:36.281000 == Info: TLSv1.2 (OUT), TLS handshake, Client hello (1):
+23:12:36.281000 => Send SSL data, 512 bytes (0x200)
+0000: .......k.]x8+...8.vEAL..*.....g<7B.UJ....0.,.(.$.............k.
+0040: j.i.h.9.8.7.6.........2...*.&.......=.5.../.+.'.#.............g.
+0080: @.?.>.3.2.1.0.........E.D.C.B.1.-.).%.......<./...A.............
+00c0: ............3.........httpbin.org...............................
+0100: ............ .....................................3t.........h2.
+0140: http/1.1........................................................
+0180: ................................................................
+01c0: ................................................................
+23:12:36.484000 <= Recv SSL data, 5 bytes (0x5)
+0000: ....Y
+23:12:36.484000 == Info: TLSv1.2 (IN), TLS handshake, Server hello (2):
+23:12:36.484000 <= Recv SSL data, 89 bytes (0x59)
+0000: ...U..^.9......D....=......P..:.C/..j. m#..|B7P..."<....t.j...-.
+0040: ...U.)s./................
+23:12:36.484000 <= Recv SSL data, 5 bytes (0x5)
+0000: .....
+23:12:36.500000 == Info: TLSv1.2 (IN), TLS handshake, Certificate (11):
+23:12:36.500000 <= Recv SSL data, 4832 bytes (0x12e0)
+0000: .........q0..m0..U.........]>..........9.0...*.H........0F1.0...
+0040: U....US1.0...U....Amazon1.0...U....Server CA 1B1.0...U....Amazon
+0080: 0...190217000000Z..200317120000Z0.1.0...U....httpbin.org0.."0...
+00c0: *.H.............0...........l...f.dj.-....6W..8n[P..1<.T..W.]a.o
+0100: m.A..y......Q...f..x.m%j.<.V....Lh.3]e.@.......,..|..b.|=..t..:.
+0140: ....=.f...fy.-....1..^K[..f[..W..c.J&.3mk!."........k...P.b.O.t
+0180: Z*.K.<..[a..v.Zm+\..>.#...+.u........P1.......sk........a._. ..K
+01c0: .i .._@..~..U.U=...$@/............0...0...U.#..0...Y.f.R.{..<...
+0200: '.t[.=.0...U...........w.v.7..c.,Vo..H0%..U....0...httpbin.org..
+0240: *.httpbin.org0...U...........0...U.%..0...+.........+.......0;..
+0280: U...40200...,.*http://crl.sca1b.amazontrust.com/sca1b.crl0 ..U. 
+02c0: ..0.0...`.H...l..0...g.....0u..+........i0g0-..+.....0..!http://
+0300: ocsp.sca1b.amazontrust.com06..+.....0..*http://crt.sca1b.amazont
+0340: rust.com/sca1b.crt0...U.......0.0.....+.....y............v......
+0380: .X......gp.<5.......w.........h..>p.....G0E.!....tE.4....Ra...gi
+03c0: .-.0...iU..s... /K*...o.<..w..s.B...LG..*.....Gq.u.oSv.1.1.....Q
+0400: ..w.......).....7.....h..?......F0D. Q..w....!%#uX.*.].G..;.k.l.
+0440: .L.q<. ...4..k,8.F.|_N:.../"X.;.$.(.x.0...*.H.............Q.GZ.
+0480: `....(...:(.....KT.R....]~.k.......X.....!.'[.l..6+>...,....q..
+04c0: .B.[.'VM.7.vU#E.!..2.k..R1!.......)C.Hk.6... .!.........Zh.C-..$
+0500: ...............#.D...8.Yn.s\.EC......Br;...7xH....pl.....'}.{f.
+0540: m.{'...9.j....=7.^v....n G.d.....z.h.....!.+o.1jR{....?......M0.
+0580: .I0..1.........W....w..S2[...V.0...*.H........091.0...U....US1.
+05c0: 0...U....Amazon1.0...U....Amazon Root CA 10...151022000000Z..251
+0600: 019000000Z0F1.0...U....US1.0...U....Amazon1.0...U....Server CA 1
+0640: B1.0...U....Amazon0.."0...*.H.............0.........N.g...j.7Z.:
+0680: 0.......(H..)..nS....9..w.....p..k....q..m...*N........<..9...X.
+06c0: ..V%.>Rz..)...nP.._1....Jb...>G..'... .....5._..M.k7..P>D..Z.f..
+0700: ~.jU...5.....uNXU}Sk.k..B...........+....S..g....:..s._...r.~...
+0740: 0c*..z-......2>.....<...P..C..*..h....Je.J...L.U...........;0..7
+0780: 0...U.......0.......0...U...........0...U......Y.f.R.{..<...'.t[
+07c0: .=.0...U.#..0.......4.......Y....N..0{..+........o0m0/..+.....0.
+0800: .#http://ocsp.rootca1.amazontrust.com0:..+.....0...http://crt.ro
+0840: otca1.amazontrust.com/rootca1.cer0?..U...80604.2.0..http://crl.r
+0880: ootca1.amazontrust.com/rootca1.crl0...U. ..0.0...g.....0...*.H..
+08c0: ..............5.y...B...csS9R5........../..o..Nr. 0a.....'.E..v>
+0900: .J....E..C...m.n.1.../1..ma7{X..Q..(.O.v......^.f........). `H..
+0940: ...Se5..k.Q@UW_...">..^.......AZ.R...6.O-...h5..r....}W.y.7.{`..
+0980: ..-.w.I.'.8.......H.........vR...Axp.m..J.x-^...L`..G.x-...R..9,
+09c0: ../.3........0...0..z.........J*'.....+.......0...*.H........0
+0a00: ..1.0...U....US1.0...U....Arizona1.0...U....Scottsdale1%0#..U...
+0a40: .Starfield Technologies, Inc.1;09..U...2Starfield Services Root 
+0a80: Certificate Authority - G20...150525120000Z..371231010000Z091.0.
+0ac0: ..U....US1.0...U....Amazon1.0...U....Amazon Root CA 10.."0...*.H
+0b00: .............0.........x.q.x..q.G.Pt}n...v..h.X!`.t../..-...CzN.
+0b40: ..6.....H...6L...#.>.7....Ih....v8.a....6..JV.E......t...59/.. P
+0b80: .lz.......G..P8....9X.....Hg0...x^o..Q.0.f.Ef.T.....H....0-}-tp5
+0bc0: ..$...Yn.s...2F(.C........$.-K.q\^i.....8..P8o..-b....T.w.g....#
+0c00: .?@  ...L>;$&...l............10..-0...U.......0....0...U.......
+0c40: ....0...U..........4.......Y....N..0...U.#..0...._.....0+8...mJ.
+0c80: ....0x..+........l0j0...+.....0.."http://ocsp.rootg2.amazontrust
+0cc0: .com08..+.....0..,http://crt.rootg2.amazontrust.com/rootg2.cer0=
+0d00: ..U...60402.0...,http://crl.rootg2.amazontrust.com/rootg2.crl0..
+0d40: .U. ..0.0...U. .0...*.H.............b7B\...>.,...lE...z..X....>.
+0d80: .%<.oP..5j..4.2!.HD...=..sm....l.(...Gy..~0[.;.`.w.....|^....{"
+0dc0: ....~.F....&W.09b.........>.ChlW.... ....j]..Jm.X...91_|s...j...
+0e00: '....F.~.r..R>...cw.i..9....EM.Q:.]]7dL~0.U$B.6.]...a.....$...t.
+0e40: .{E)P9....5%..jG#1/\.....bQ.*...4.!...y0..u0..]..........JL4..0
+0e80: ...*.H........0h1.0...U....US1%0#..U....Starfield Technologies, 
+0ec0: Inc.1200..U...)Starfield Class 2 Certification Authority0...0909
+0f00: 02000000Z..340628173916Z0..1.0...U....US1.0...U....Arizona1.0...
+0f40: U....Scottsdale1%0#..U....Starfield Technologies, Inc.1;09..U...
+0f80: 2Starfield Services Root Certificate Authority - G20.."0...*.H..
+0fc0: ...........0..........:.*.N....._..S..?... .m):..}<.kv8c.6`..^\.
+1000: ../Y...%C..i.R...q..-.No..I....V.+.t....&......j;X..GV.%..pS...
+1040: t..g..h:..@Z.JN.C.;.V..p.R.{}.:..1.E..`..Y.+..4G....em..,.......
+1080: I|fN.:m...4.....3.G..k.%.....EF2.p....IC..ls.d.aA...T../.".&..YT
+10c0: h...*/.U.u@`...U9..........0..0...U.......0....0...U...........
+1100: 0...U......._.....0+8...mJ.....0...U.#..0...._.......[U.........
+1140: 0O..+........C0A0...+.....0...http://o.ss2.us/0!..+.....0...http
+1180: ://x.ss2.us/x.cer0&..U....0.0.......http://s.ss2.us/r.crl0...U. 
+11c0: ..0.0...U. .0...*.H.............#...W.}..yL..U..Sn>G...U...6...S
+1200: .]4(k..U.g..?..3..X...../..`.........u.O..m......~@,....v.3.w..
+1240: .S..d..'.i.M^....u.XD-.<p...i..w.1^,...:Gi.y_..T..^.x.`'...w.#
+1280: Sw]...Y.......$.5.z....}..?...rT....Y{..R.F...dv.H..y.nV..,....8
+12c0: .....[.....4I.V..._.3..G.0.]...
+23:12:36.515000 <= Recv SSL data, 5 bytes (0x5)
+0000: ....M
+23:12:36.515000 == Info: TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+23:12:36.515000 <= Recv SSL data, 333 bytes (0x14d)
+0000: ...I...A.....B....D..P...Ht..........Q.;Q..L.q1.q."p........:.:.
+0040: .....(Uw......!"...J^...$.U4".1e.$..&.....6.[.b.Z.2.8f1M...=l..
+0080: w#l&.,...uG..G..u..y8....&..l.P.9.<.%..|...X......;n..Vb.[.z&..
+00c0: .o.....k....(...SiR.U..y..m...!..\....sNB..T.`...]..G.R...k.o.I
+0100: ......".N..]v.)2.[.......H..^.d.....A....5..x.........r.......m
+0140: .Y.:.u.K...z.
+23:12:36.515000 <= Recv SSL data, 5 bytes (0x5)
+0000: .....
+23:12:36.515000 == Info: TLSv1.2 (IN), TLS handshake, Server finished (14):
+23:12:36.515000 <= Recv SSL data, 4 bytes (0x4)
+0000: ....
+23:12:36.515000 => Send SSL data, 5 bytes (0x5)
+0000: ....F
+23:12:36.515000 == Info: TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+23:12:36.515000 => Send SSL data, 70 bytes (0x46)
+0000: ...BA......v>B..i..A.j....8~m.O......|.'.8xu....F......b....q.3.
+0040: ......
+23:12:36.515000 => Send SSL data, 5 bytes (0x5)
+0000: .....
+23:12:36.515000 == Info: TLSv1.2 (OUT), TLS change cipher, Client hello (1):
+23:12:36.515000 => Send SSL data, 1 bytes (0x1)
+0000: .
+23:12:36.515000 => Send SSL data, 5 bytes (0x5)
+0000: ....(
+23:12:36.515000 == Info: TLSv1.2 (OUT), TLS handshake, Finished (20):
+23:12:36.515000 => Send SSL data, 16 bytes (0x10)
+0000: .........Y.!...{
+23:12:36.718000 <= Recv SSL data, 5 bytes (0x5)
+0000: .....
+23:12:36.718000 == Info: TLSv1.2 (IN), TLS change cipher, Client hello (1):
+23:12:36.718000 <= Recv SSL data, 1 bytes (0x1)
+0000: .
+23:12:36.718000 <= Recv SSL data, 5 bytes (0x5)
+0000: ....(
+23:12:36.718000 == Info: TLSv1.2 (IN), TLS handshake, Finished (20):
+23:12:36.718000 <= Recv SSL data, 16 bytes (0x10)
+0000: ....S..........o
+23:12:36.718000 == Info: SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+23:12:36.718000 == Info: ALPN, server did not agree to a protocol
+23:12:36.718000 == Info: Server certificate:
+23:12:36.718000 == Info:  subject: CN=httpbin.org
+23:12:36.718000 == Info:  start date: Feb 17 00:00:00 2019 GMT
+23:12:36.718000 == Info:  expire date: Mar 17 12:00:00 2020 GMT
+23:12:36.718000 == Info:  subjectAltName: host "httpbin.org" matched cert's "httpbin.org"
+23:12:36.718000 == Info:  issuer: C=US; O=Amazon; OU=Server CA 1B; CN=Amazon
+23:12:36.718000 == Info:  SSL certificate verify ok.
+23:12:36.718000 => Send SSL data, 5 bytes (0x5)
+0000: ....h
+23:12:36.718000 => Send header, 80 bytes (0x50)
+0000: POST /post HTTP/1.1
+0015: Host: httpbin.org
+0028: User-Agent: curl/7.60.0
+0041: Accept: */*
+004e: 
+23:12:36.921000 <= Recv SSL data, 5 bytes (0x5)
+0000: .....
+23:12:36.921000 <= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+23:12:36.921000 <= Recv header, 40 bytes (0x28)
+0000: Access-Control-Allow-Credentials: true
+23:12:36.921000 <= Recv header, 32 bytes (0x20)
+0000: Access-Control-Allow-Origin: *
+23:12:36.921000 <= Recv header, 32 bytes (0x20)
+0000: Content-Type: application/json
+23:12:36.921000 <= Recv header, 37 bytes (0x25)
+0000: Date: Sun, 24 Feb 2019 18:12:36 GMT
+23:12:36.921000 <= Recv header, 15 bytes (0xf)
+0000: Server: nginx
+23:12:36.921000 <= Recv header, 21 bytes (0x15)
+0000: Content-Length: 294
+23:12:36.921000 <= Recv header, 24 bytes (0x18)
+0000: Connection: keep-alive
+23:12:36.921000 <= Recv header, 2 bytes (0x2)
+0000: 
+23:12:36.921000 <= Recv data, 294 bytes (0x126)
+0000: {.  "args": {}, .  "data": "", .  "files": {}, .  "form": {}, . 
+0040:  "headers": {.    "Accept": "*/*", .    "Content-Length": "0", .
+0080:     "Host": "httpbin.org", .    "User-Agent": "curl/7.60.0".  },
+00c0:  .  "json": null, .  "origin": "{HIDDEN IP}", .
+0100:   "url": "https://httpbin.org/post".}.
+23:12:36.921000 == Info: Connection #0 to host httpbin.org left intact
